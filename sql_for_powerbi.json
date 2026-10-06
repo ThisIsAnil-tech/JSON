@@ -1,0 +1,149 @@
+{
+  "SQLForPowerBI": {
+    "Basics": [
+      "What is SQL",
+      "Database",
+      "Table",
+      "Row",
+      "Column",
+      "Schema",
+      "Primary Key",
+      "Foreign Key",
+      "Unique Key",
+      "Data Types"
+    ],
+    "DataRetrieval": [
+      "SELECT",
+      "DISTINCT",
+      "FROM",
+      "WHERE",
+      "ORDER BY",
+      "LIMIT",
+      "TOP",
+      "OFFSET",
+      "FETCH",
+      "Aliases (AS)"
+    ],
+    "Filtering": [
+      "AND",
+      "OR",
+      "NOT",
+      "IN",
+      "NOT IN",
+      "BETWEEN",
+      "LIKE",
+      "IS NULL",
+      "IS NOT NULL",
+      "EXISTS",
+      "ANY",
+      "ALL"
+    ],
+    "AggregateFunctions": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "MIN",
+      "MAX"
+    ],
+    "Grouping": [
+      "GROUP BY",
+      "HAVING"
+    ],
+    "Joins": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL OUTER JOIN",
+      "CROSS JOIN",
+      "SELF JOIN"
+    ],
+    "SetOperators": [
+      "UNION",
+      "UNION ALL",
+      "INTERSECT",
+      "EXCEPT",
+      "MINUS"
+    ],
+    "Subqueries": [
+      "Single-row Subquery",
+      "Multiple-row Subquery",
+      "Correlated Subquery",
+      "Nested Subquery"
+    ],
+    "CommonTableExpressions": [
+      "WITH Clause",
+      "Recursive CTE"
+    ],
+    "WindowFunctions": [
+      "ROW_NUMBER",
+      "RANK",
+      "DENSE_RANK",
+      "NTILE",
+      "LAG",
+      "LEAD",
+      "FIRST_VALUE",
+      "LAST_VALUE",
+      "Running Total",
+      "Moving Average",
+      "PARTITION BY",
+      "OVER",
+      "ORDER BY in OVER"
+    ],
+    "ConditionalLogic": [
+      "CASE WHEN",
+      "CASE ELSE"
+    ],
+    "StringFunctions": [
+      "CONCAT",
+      "SUBSTRING",
+      "LEFT",
+      "RIGHT",
+      "LENGTH",
+      "CHAR_LENGTH",
+      "UPPER",
+      "LOWER",
+      "TRIM",
+      "LTRIM",
+      "RTRIM",
+      "REPLACE",
+      "REVERSE"
+    ],
+    "DateTimeFunctions": [
+      "CURRENT_DATE",
+      "CURRENT_TIMESTAMP",
+      "NOW",
+      "YEAR",
+      "MONTH",
+      "DAY",
+      "DATEADD",
+      "DATEDIFF",
+      "DATEPART",
+      "DATE_FORMAT",
+      "EXTRACT"
+    ],
+    "NullHandling": [
+      "COALESCE",
+      "IFNULL",
+      "ISNULL",
+      "NULLIF"
+    ],
+    "Views": [
+      "CREATE VIEW",
+      "ALTER VIEW",
+      "DROP VIEW"
+    ],
+    "DataModification": [
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "TRUNCATE"
+    ],
+    "Performance": [
+      "Indexes",
+      "Clustered Index",
+      "Non-Clustered Index",
+      "Execution Plan",
+      "Query Optimization"
+    ]
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "SQL": {
+    "Introduction": [
+      "What is SQL",
+      "History of SQL",
+      "SQL Standards (ANSI/ISO)",
+      "Types of SQL Languages",
+      "Database vs DBMS vs RDBMS",
+      "Relational Model",
+      "Database Objects"
+    ],
+
+    "Database Concepts": [
+      "Database",
+      "Schema",
+      "Table",
+      "Row (Tuple)",
+      "Column (Attribute)",
+      "Record",
+      "Domain",
+      "Data Types",
+      "Constraints",
+      "Keys",
+      "Relationships",
+      "Metadata"
+    ],
+
+    "SQL Data Types": {
+      "Numeric": [
+        "INT",
+        "BIGINT",
+        "SMALLINT",
+        "TINYINT",
+        "DECIMAL",
+        "NUMERIC",
+        "FLOAT",
+        "REAL",
+        "DOUBLE"
+      ],
+      "Character": [
+        "CHAR",
+        "VARCHAR",
+        "TEXT",
+        "NCHAR",
+        "NVARCHAR"
+      ],
+      "DateTime": [
+        "DATE",
+        "TIME",
+        "DATETIME",
+        "TIMESTAMP",
+        "YEAR"
+      ],
+      "Boolean": [
+        "BOOLEAN",
+        "BIT"
+      ],
+      "Binary": [
+        "BINARY",
+        "VARBINARY",
+        "BLOB"
+      ],
+      "Other": [
+        "JSON",
+        "XML",
+        "UUID",
+        "ENUM",
+        "SET"
+      ]
+    },
+
+    "DDL (Data Definition Language)": [
+      "CREATE DATABASE",
+      "DROP DATABASE",
+      "ALTER DATABASE",
+      "CREATE TABLE",
+      "ALTER TABLE",
+      "DROP TABLE",
+      "TRUNCATE TABLE",
+      "RENAME TABLE",
+      "COMMENT",
+      "CREATE INDEX",
+      "DROP INDEX",
+      "CREATE VIEW",
+      "ALTER VIEW",
+      "DROP VIEW",
+      "CREATE SEQUENCE",
+      "ALTER SEQUENCE",
+      "DROP SEQUENCE"
+    ],
+
+    "DML (Data Manipulation Language)": [
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "MERGE",
+      "UPSERT",
+      "REPLACE"
+    ],
+
+    "DQL (Data Query Language)": [
+      "SELECT",
+      "FROM",
+      "DISTINCT",
+      "TOP",
+      "LIMIT",
+      "OFFSET",
+      "FETCH"
+    ],
+
+    "DCL (Data Control Language)": [
+      "GRANT",
+      "REVOKE"
+    ],
+
+    "TCL (Transaction Control Language)": [
+      "BEGIN",
+      "START TRANSACTION",
+      "COMMIT",
+      "ROLLBACK",
+      "SAVEPOINT",
+      "RELEASE SAVEPOINT",
+      "SET TRANSACTION"
+    ],
+
+    "Constraints": [
+      "PRIMARY KEY",
+      "FOREIGN KEY",
+      "UNIQUE",
+      "NOT NULL",
+      "CHECK",
+      "DEFAULT",
+      "AUTO_INCREMENT",
+      "IDENTITY"
+    ],
+
+    "Operators": {
+      "Arithmetic": [
+        "+",
+        "-",
+        "*",
+        "/",
+        "%"
+      ],
+      "Comparison": [
+        "=",
+        "!=",
+        "<>",
+        "<",
+        ">",
+        "<=",
+        ">="
+      ],
+      "Logical": [
+        "AND",
+        "OR",
+        "NOT"
+      ],
+      "Special": [
+        "IN",
+        "NOT IN",
+        "BETWEEN",
+        "LIKE",
+        "ILIKE",
+        "EXISTS",
+        "ANY",
+        "ALL",
+        "SOME",
+        "IS NULL",
+        "IS NOT NULL"
+      ],
+      "Set": [
+        "UNION",
+        "UNION ALL",
+        "INTERSECT",
+        "EXCEPT",
+        "MINUS"
+      ]
+    },
+
+    "Joins": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL OUTER JOIN",
+      "CROSS JOIN",
+      "SELF JOIN",
+      "NATURAL JOIN"
+    ],
+
+    "SortingAndGrouping": [
+      "ORDER BY",
+      "GROUP BY",
+      "HAVING"
+    ],
+
+    "Aggregate Functions": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "MIN",
+      "MAX",
+      "STDDEV",
+      "VARIANCE"
+    ],
+
+    "String Functions": [
+      "CONCAT",
+      "CONCAT_WS",
+      "SUBSTRING",
+      "LEFT",
+      "RIGHT",
+      "LENGTH",
+      "CHAR_LENGTH",
+      "UPPER",
+      "LOWER",
+      "INITCAP",
+      "TRIM",
+      "LTRIM",
+      "RTRIM",
+      "REPLACE",
+      "REVERSE",
+      "POSITION",
+      "INSTR",
+      "LPAD",
+      "RPAD",
+      "REPEAT",
+      "ASCII",
+      "CHAR"
+    ],
+
+    "Numeric Functions": [
+      "ABS",
+      "ROUND",
+      "CEIL",
+      "FLOOR",
+      "POWER",
+      "SQRT",
+      "MOD",
+      "RAND",
+      "SIGN",
+      "EXP",
+      "LOG",
+      "PI"
+    ],
+
+    "DateAndTime Functions": [
+      "CURRENT_DATE",
+      "CURRENT_TIME",
+      "CURRENT_TIMESTAMP",
+      "NOW",
+      "YEAR",
+      "MONTH",
+      "DAY",
+      "HOUR",
+      "MINUTE",
+      "SECOND",
+      "EXTRACT",
+      "DATEADD",
+      "DATEDIFF",
+      "DATEPART",
+      "DATE_FORMAT",
+      "LAST_DAY",
+      "DAYNAME",
+      "MONTHNAME"
+    ],
+
+    "NULL Functions": [
+      "COALESCE",
+      "IFNULL",
+      "ISNULL",
+      "NULLIF",
+      "NVL"
+    ],
+
+    "Conditional Expressions": [
+      "CASE",
+      "CASE WHEN",
+      "CASE ELSE",
+      "IF",
+      "IIF",
+      "DECODE"
+    ],
+
+    "Subqueries": [
+      "Single Row Subquery",
+      "Multiple Row Subquery",
+      "Correlated Subquery",
+      "Nested Subquery",
+      "Scalar Subquery"
+    ],
+
+    "Common Table Expressions": [
+      "WITH",
+      "Recursive CTE"
+    ],
+
+    "Window Functions": [
+      "OVER",
+      "PARTITION BY",
+      "ORDER BY (Window)",
+      "ROW_NUMBER",
+      "RANK",
+      "DENSE_RANK",
+      "NTILE",
+      "LAG",
+      "LEAD",
+      "FIRST_VALUE",
+      "LAST_VALUE",
+      "NTH_VALUE",
+      "CUME_DIST",
+      "PERCENT_RANK",
+      "Running Total",
+      "Moving Average"
+    ],
+
+    "Views": [
+      "Simple View",
+      "Complex View",
+      "Materialized View"
+    ],
+
+    "Indexes": [
+      "Clustered Index",
+      "Non-Clustered Index",
+      "Unique Index",
+      "Composite Index",
+      "Bitmap Index",
+      "Hash Index",
+      "Full Text Index"
+    ],
+
+    "Sequences": [
+      "CREATE SEQUENCE",
+      "NEXTVAL",
+      "CURRVAL",
+      "ALTER SEQUENCE",
+      "DROP SEQUENCE"
+    ],
+
+    "Stored Programs": [
+      "Stored Procedures",
+      "Functions",
+      "Triggers",
+      "Events",
+      "Packages"
+    ],
+
+    "Transactions": [
+      "ACID Properties",
+      "Transaction States",
+      "Isolation Levels",
+      "Dirty Read",
+      "Non-repeatable Read",
+      "Phantom Read",
+      "Deadlock"
+    ],
+
+    "Normalization": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF",
+      "4NF",
+      "5NF",
+      "Denormalization"
+    ],
+
+    "Performance Optimization": [
+      "Indexes",
+      "Execution Plan",
+      "Query Optimization",
+      "Query Cost",
+      "Partitioning",
+      "Sharding",
+      "Caching",
+      "Materialized Views"
+    ],
+
+    "Security": [
+      "Users",
+      "Roles",
+      "Privileges",
+      "Authentication",
+      "Authorization",
+      "Encryption",
+      "SQL Injection Prevention"
+    ],
+
+    "Advanced SQL": [
+      "Pivot",
+      "Unpivot",
+      "Recursive Queries",
+      "JSON Functions",
+      "XML Functions",
+      "Lateral Join",
+      "Window Frames",
+      "Recursive CTE",
+      "Hierarchical Queries",
+      "Temporary Tables",
+      "Common Table Expressions",
+      "Merge Statement",
+      "Dynamic SQL"
+    ],
+
+    "Database Objects": [
+      "Tables",
+      "Views",
+      "Indexes",
+      "Sequences",
+      "Synonyms",
+      "Triggers",
+      "Procedures",
+      "Functions",
+      "Schemas"
+    ]
+  }
+}
+
